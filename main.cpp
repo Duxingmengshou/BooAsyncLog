@@ -1,8 +1,6 @@
 #include <iostream>
 #include <chrono>
 
-#include "boo/booFile/fileWrite.h"
-#include "boo/booAsyncLog/logFile.h"
 #include "boo/booAsyncLog/asyncLog.h"
 
 
