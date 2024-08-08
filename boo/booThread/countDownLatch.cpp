@@ -19,6 +19,7 @@ namespace boo::thread::utils {
         while (_count > 0) {
             _condition.wait(lock);
         }
+
     }
 
     size_t countDownLatch::getCount() {

@@ -46,7 +46,7 @@ int main() {
 异步输出100w条（100B/条）日志时间: 0.0692614 seconds<br>
 <br>
 Time to output 1 million logs synchronously (100B/log): 2.66441 seconds(37w/s)<br>
-Time to output 1 million logs asynchronously (100B/log): 0.0692614 seconds(1143w/s)
+Time to output 1 million logs asynchronously (100B/log): 0.0692614 seconds(1443w/s)
 <br>
 Of course, if the output is added with time, the asynchronous library will run slowly, so I suggest using the file name to check the date.
 Currently only supports Windows, and may be updated in the future.
